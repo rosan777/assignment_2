@@ -1,0 +1,98 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Assignment_2</title>
+    <link rel="stylesheet" href="styles.css" />
+  </head>
+  <body>
+    <nav id="desktop-nav">
+      <div>
+        <ul class="nav-links">
+          <li><a href="#full-container">Quote Box</a></li>
+          <li><a href="#Converter">HeroConverter</a></li>
+          <li><a href="#calc">Calculator</a></li>
+          <li><a href="#magic-box">Magic Box</a></li>
+        </ul>
+      </div>
+    </nav>
+    <h1>Quote Box</h1>
+    <div id="full-container">
+      <div id="quote-box">
+        <div id="quote-text"></div>
+      </div>
+      <div class="color-btn-container">
+        <button id="color-btn1" class="color-btn">Green</button>
+        <button id="color-btn2" class="color-btn">Yellow</button>
+        <button id="color-btn3" class="color-btn">Blue</button>
+        <button id="color-btn4" class="color-btn">Red</button>
+      </div>
+      <div>
+        <img src="./assets/gggg.gif" alt="icon" class="icon" />
+      </div>
+    </div>
+    <br />
+    <br />
+    <br />
+    <h1>Hero Converter</h1>
+    <div class="hero-converter" id="Converter">
+      <label for="weight">Convert :</label>
+      <input type="number" id="weight" name="weight" />
+      <select id="conversionType">
+        <option value="kgToLb" selected>kg to lb</option>
+        <option value="lbToKg">lb to kg</option>
+      </select>
+      <button onclick="convert()">GO!</button>
+      <span id="result"></span>
+    </div>
+    <br />
+    <br />
+    <br />
+    <h1>Number Series Analyzer</h1>
+    <div class="calculator" id="calc">
+      <div class="input-section">
+        <label for="numberSeriesInput">Input Series of Numbers</label>
+        <input type="text" id="numberSeriesInput" />
+      </div>
+      <div class="output" id="outputResult">
+        <p>Max : <span id="max"></span></p>
+        <p>Min : <span id="min"></span></p>
+        <p>Sum : <span id="sum"></span></p>
+        <p>Average : <span id="average"></span></p>
+        <p>Reverse Order : <span id="reverse"></span></p>
+      </div>
+    </div>
+    <br />
+    <br />
+    <br />
+    <div>
+      <h1>Magic Box</h1>
+      <div id="magic-box">
+        <p id="magic">Magic!</p>
+        <textarea id="text-area"></textarea>
+        <div class="magic-buttons">
+          <button id="magic-button" onclick="clearAll()">Clear All</button>
+          <button id="magic-button" onclick="CapitaLize()">Capitalize</button>
+          <button id="magic-button" onclick="sortText()">Sort</button>
+          <button id="magic-button" onclick="reverseText()">Reverse</button>
+          <button id="magic-button" onclick="stripBlank()">Strip Blank</button>
+          <button id="magic-button" onclick="addNumbers()">Add Numbers</button>
+          <button id="magic-button" onclick="shuffleLines()">Shuffle</button>
+        </div>
+      </div>
+    </div>
+    <div class="footer">
+      <div id="footer-1">
+        <div class="">&copy; Copyright 2024</div>
+        <div class="xxx">
+          This Assignment 02 for CSE391. All rights reserved.
+        </div>
+        <div>
+          <a href="#" id="footer-link"> Back to top </a>
+        </div>
+      </div>
+    </div>
+  </body>
+  <script src="script.js"></script>
+</html>

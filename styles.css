@@ -1,0 +1,198 @@
+@import url('https://fonts.googleapis.com/css2?family=Roboto+Slab:wght@100..900&display=swap');
+
+*{
+  margin: 0;
+  padding: 0;
+}
+
+
+
+
+body {
+  font-family: "Roboto Slab", serif;
+  background-color: #F2EAD3;
+}
+
+/*  Nav................ */
+
+a {
+  font-family: Arial, Helvetica, sans-serif;
+  color: rgb(74, 3, 97);
+  text-decoration: none;
+}
+
+ul {
+  list-style: none;
+}
+
+a:hover {
+  color: #daa66b;
+  text-decoration: underline;
+}
+
+nav {
+  justify-content: space-around;
+  align-items: center;
+  height: 40px;
+  background-color: rgb(213, 225, 230);
+  border-bottom: 2px dotted #3F2305;
+}
+
+nav,
+.nav-links {
+  display: flex;
+  gap: 2rem;
+  font-size: 100%;
+}
+
+
+/* heading */
+
+h1 {
+  text-align: center;
+  color: #3F2305;
+}
+
+h1 {
+  transition: transform 0.3s ease;
+}
+
+h1:hover {
+  transform: translateY(5px);
+}
+
+/* Quote Box */
+
+.icon {
+  height: 100px;
+  width: 100px;
+}
+
+#quote-box {
+  text-align: center;
+  padding: 15px;
+  border: 2px solid #333;
+  border-radius: 5px;
+  background-color: #fff;
+  box-shadow: 0 0 20px #3F2305;
+
+}
+
+.color-btn {
+  margin-top: 10px;
+  padding: 5px 10px;
+  color: #fff;
+  border: 5px solid #d1d1d1;
+  border-radius: 5px;
+  cursor: pointer;
+  display: inline-block;
+}
+
+.color-btn-container {
+  text-align: center;
+  padding-left: 20px;
+  display: grid;
+  grid-template-columns: repeat(2, 1fr); /* Two columns */
+  gap: 5px;
+  margin-bottom: 10px;
+}
+
+#full-container {
+  margin-left: 20%;
+  margin-right: 20%;
+  display: flex;
+  padding-top: 60px; 
+}
+
+#quote-text {
+  font-size: 18px;
+  font-family: 'Times New Roman', Times, serif;
+  margin-bottom: 10px;
+}
+
+#color-btn1 {
+  background-color: #163020;
+}
+
+#color-btn2 {
+  background-color: #FDE767; 
+}
+
+#color-btn3 {
+  background-color: #0F1035; 
+}
+
+#color-btn4 {
+  background-color: #B80000;
+}
+
+
+/* hero conveter */
+
+
+.hero-converter {
+  margin-left: 20%;
+  margin-right: 20%;
+  margin-top: 60px;
+  text-align: center;
+  padding: 15px;
+  border: 2px solid #333;
+  border-radius: 5px;
+  box-shadow: 0 0 20px #3F2305;
+}
+
+
+/* Number Series Analyzer */
+
+
+.calculator {
+  margin-left: 20%;
+  margin-right: 20%;
+  margin-top: 60px;
+  text-align: center;
+  padding: 15px;
+  border: 2px solid #333;
+  border-radius: 5px;
+  box-shadow: 0 0 20px #3F2305;
+}
+
+
+
+/* Magic box */
+
+#text-area {
+  width: 95%;
+  height: 300px;
+}
+
+#magic-box {
+  background-color: #F2EAD3;
+  margin-left: 20%;
+  margin-right: 20%;
+  margin-top: 60px;
+  text-align: center;
+  padding: 15px;
+  border: 2px solid #333;
+  border-radius: 5px;
+  box-shadow: 0 0 20px #3F2305;
+}
+
+
+#magic-button {
+  box-shadow: 0 0 5px #3F2305;
+}
+
+/* footer */
+
+#footer-1 {
+  border-top: 2px dotted #3F2305;
+  margin: 60px;
+  padding-top: 15px;
+  display: flex;
+  justify-content: space-evenly
+}
+
+#footer-link {
+  border: 1px solid black;
+  padding: 3px 5px;
+}
